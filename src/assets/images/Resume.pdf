@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5501/resume.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        .resume-container {
+            border: 1px solid #000;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .resume-header {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .label {
+            font-weight: bold;
+            width: 40%;
+        }
+        .value {
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="resume-header">RESUME</div>
+        <div class="content">
+            <div class="label">Name:</div>
+            <div class="value">Rayees Ahmad Gadda</div>
+        </div>
+        <div class="content">
+            <div class="label">Father's Name:</div>
+            <div class="value">Mohammad Akram Gadda</div>
+        </div>
+        <div class="content">
+            <div class="label">Address:</div>
+            <div class="value">Jawbrara, Awantipora, Pulwama, Jammu and Kashmir - 192122</div>
+        </div>
+        <div class="content">
+            <div class="label">Current Address:</div>
+            <div class="value">Ballo Majra, SAS Nagar, Mohali - 160055</div>
+        </div>
+        <div class="content">
+            <div class="label">Contact No:</div>
+            <div class="value">7006723820</div>
+        </div>
+        <div class="content">
+            <div class="label">Email:</div>
+            <div class="value">rayeesrayeesdot@gmail.com</div>
+        </div>
+        <div class="section-title">Career Objective:</div>
+        <div class="content">
+            To become a successful professional by constantly improving on one's attitude, skill, and knowledge, and to contribute the highest level of passionate efforts to the work, being responsible and innovative so as to accomplish a sense of organizational citizenship through competence, perseverance, and teamwork.
+        </div>
+        <div class="section-title">Education Qualification:</div>
+        <div class="content">
+            <ul>
+                <li>10th from JAMMU AND KASHMIR BOARD OF SCHOOL OF EDUCATION within 60% - 2016</li>
+                <li>10+2 (non-medical) from JAMMU AND KASHMIR BOARD OF SCHOOL OF EDUCATION within 60% - 2018</li>
+                <li>BCA from KASHMIR UNIVERSITY within 80.14% - 2024</li>
+            </ul>
+        </div>
+        <div class="section-title">Personal Profiles:</div>
+        <div class="content">
+            <div class="label">Name:</div>
+            <div class="value">Rayees Ahmad Gadda</div>
+        </div>
+        <div class="content">
+            <div class="label">Father's Name:</div>
+            <div class="value">Mohammad Akram Gadda</div>
+        </div>
+        <div class="content">
+            <div class="label">Date of Birth:</div>
+            <div class="value">09-12-2001</div>
+        </div>
+        <div class="content">
+            <div class="label">Gender:</div>
+            <div class="value">Male</div>
+        </div>
+        <div class="content">
+            <div class="label">Marital Status:</div>
+            <div class="value">Unmarried</div>
+        </div>
+        <div class="content">
+            <div class="label">Work Experience:</div>
+            <div class="value">Fresher</div>
+        </div>
+        <div class="content">
+            <div class="label">Language Known:</div>
+            <div class="value">English, Urdu, Hindi, Kashmiri</div>
+        </div>
+        <div class="section-title">Strength:</div>
+        <div class="content">
+            Good communication skills, self-motivated, hard-working
+        </div>
+        <div class="section-title">Hobbies:</div>
+        <div class="content">
+            <ul>
+                <li>Programming</li>
+                <li>Reading books, online work</li>
+                <li>Creating responsive web pages</li>
+            </ul>
+        </div>
+        <div class="section-title">Declaration:</div>
+        <div class="content">
+            I hereby declare that the information furnished above is true to the best of my knowledge. I assure that I will prove my ability, if I am provided with an opportunity.
+        </div>
+        <div class="content">
+            <div class="label">Date:</div>
+            <div class="value">28-06-2024</div>
+        </div>
+        <div class="content">
+            <div class="label">Place:</div>
+            <div class="value">Mohali</div>
+        </div>
+        <div class="content">
+            <div class="label">Signature:</div>
+            <div class="value">Rayees</div>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

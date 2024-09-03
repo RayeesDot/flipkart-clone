@@ -1,0 +1,51 @@
+ .vertical{
+    border-left: 1px solid
+ }
+ .font-s{
+   font-size: 12px;
+ }
+ .line-h{
+   line-height: 0.8 ;
+ }
+ .line-h-0{
+   line-height: 0.2;
+ }
+ .pad-cus{
+   padding: 40px 70px
+ }
+ .horizantal{
+  border-top: 1px solid;
+ }
+ .pad-cus-1{
+  padding: 20px 50px;
+ }
+
+ @media screen and (max-width: 620px) {
+  .containerForResponsive {
+    flex-direction: column;
+  }
+
+  .d-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pad-cus, .pad-cus-1 {
+    padding: 20px;
+  }
+
+  .footer-section {
+    padding: 10px 0;
+  }
+
+  .justify-content-between {
+    justify-content: flex-start;
+  }
+
+  .gap-4 {
+    gap: 1rem;
+  }
+  .img-sm{
+    width:100%
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "rayees@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "id": "2",
+      "email": "rayees1@gmail.com",
+      "password": "pass1234"
+    },
+    {
+      "id": "e8dc",
+      "email": "rayeesrayeesdot@gmail.com",
+      "password": " Rayees#123"
+    },
+    {
+      "id": "7f49",
+      "email": "9140226694",
+      "password": "9616"
+    },
+    {
+      "id": "8418",
+      "email": "rayeesrayeesdot@gmail.com",
+      "password": " Rayees#123"
+    },
+    {
+      "id": "f455",
+      "email": "rayeesrayeesdot@gmail.com",
+      "password": " Rayees#123"
+    },
+    {
+      "id": "4b84",
+      "email": "rayeesakram@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "id": "885e",
+      "email": "shubhamsharma101@gmail.com",
+      "password": "Sharma"
+    },
+    {
+      "id": "dcf7",
+      "email": "shubhamsharma@gmail.com",
+      "password": "Sharma"
+    },
+    {
+      "id": "2d68",
+      "email": "7006642697",
+      "password": "RAYEES"
+    },
+    {
+      "id": "6c9c",
+      "email": "shahid@gmail.com",
+      "password": "shahid"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Apple iPhone 15",
+      "category": "Mobile Phones",
+      "price": 59999,
+      "rating": 4.8,
+      "reviews": 1200,
+      "description": "Only one piece left in stock, Apple iPhone 15 with, 6.1-inch display, and dual-camera system.",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=70"
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S21",
+      "category": "Mobile Phones",
+      "price": 69999,
+      "rating": 4.5,
+      "reviews": 900,
+      "description": "Samsung Galaxy S21 with Exynos 2100, 6.2-inch display, and triple-camera setup.",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/o/c/-original-imagtnqjmfqxxbj2.jpeg?q=70"
+    },
+    {
+      "id": "3",
+      "name": "Sony Bravia 55-inch 4K UHD TV",
+      "category": "Televisions",
+      "price": 99999,
+      "rating": 4.7,
+      "reviews": 500,
+      "description": "Sony Bravia 55-inch 4K UHD Smart TV with HDR and Google Assistant.",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/krme93k0/television/8/j/w/kd-55x80j-kd-55x80j-sony-original-imag5dfgzut79ate.jpeg?q=70"
+    },
+    {
+      "id": "4",
+      "name": "Dell Inspiron 15 Laptop",
+      "category": "Laptops",
+      "price": 55999,
+      "rating": 4.3,
+      "reviews": 300,
+      "description": "Dell Inspiron 15 with Intel i5 processor, 8GB RAM, and 512GB SSD.",
+      "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/p/t/p/inspiron-3520-thin-and-light-laptop-dell-original-imaguzh2xuqjrctf.jpeg?q=70"
+    },
+    {
+      "id": "5",
+      "name": "Bose QuietComfort 35 II",
+      "category": "Headphones",
+      "price": 29999,
+      "rating": 4.6,
+      "reviews": 800,
+      "description": "Bose QuietComfort 35 II Wireless Bluetooth Headphones with Noise-Cancellation.",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/t/4/q/-original-imahfcgwmdfcnbwn.jpeg?q=70"
+    },
+    {
+      "id": "6",
+      "name": "Bose QuietComfort 35 II",
+      "category": "Headphones",
+      "price": 29999,
+      "rating": 4.6,
+      "reviews": 800,
+      "description": "Bose QuietComfort 35 II Wireless Bluetooth Headphones with Noise-Cancellation.",
+      "image_url": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/t/4/q/-original-imahfcgwmdfcnbwn.jpeg?q=70"
+    }
+  ]
+}
