@@ -54,6 +54,31 @@
       "id": "6c9c",
       "email": "shahid@gmail.com",
       "password": "shahid"
+    },
+    {
+      "id": "7f8c",
+      "email": "rayeesrayeesdot@gmail.com",
+      "password": "rayees"
+    },
+    {
+      "id": "2004",
+      "email": "rayeesrayeesdot@gmail.com",
+      "password": "rayees123"
+    },
+    {
+      "id": "0b7b",
+      "email": "rayeesrayeesdot1@gmail.com",
+      "password": "rayees123"
+    },
+    {
+      "id": "c014",
+      "email": "rayeesrayeesdot2@gmail.com",
+      "password": "rayees123"
+    },
+    {
+      "id": "3378",
+      "email": "rayeesrayeesdot3@gmail.com",
+      "password": "Rayees@123"
     }
   ],
   "products": [

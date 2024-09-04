@@ -53,17 +53,19 @@ const Carousel = () => {
   }
 
   return (
-    <div className="p-2 d-flex bg-primary">
+   <div className="bg-primary">
+     <div className="p-2 d-flex container">
       <div className="d-flex align-items-center">
-        <p>{products[currentImageIndex].name}</p>
+        <p className="text-white text-style">{products[currentImageIndex].name}</p>
       </div>
       <div className="myCarousel text-center">
         <img className="w-h" src={products[currentImageIndex].image_url} alt="carouselImg" />
       </div>
       <div className="d-flex align-items-center">
-        <p>{products[currentImageIndex].description}</p>
+        <p className="text-white text-style">{products[currentImageIndex].description}</p>
       </div>
     </div>
+   </div>
   );
 };
 

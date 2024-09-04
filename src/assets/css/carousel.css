@@ -16,4 +16,8 @@
     max-height: 400px; /* Ensures images don't get too tall */
     object-fit: contain; /* Ensures the entire image is visible */
   }
+
+  .text-style{
+    font-style: italic;
+  }
   
