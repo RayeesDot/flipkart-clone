@@ -28,7 +28,7 @@ const SignupComponent = () => {
 
   const postData = async()=>{
    try {
-    await axios.post('http://localhost:3001/users',{
+    await axios.post('https://myflipkartdbjson.onrender.com/users',{
       email:data.email,
       password:data.password
       })
