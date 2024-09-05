@@ -8,7 +8,7 @@ const ProductsDetails = () => {
   useEffect(()=>{
     const fetchProduct = async ()=>{
       try {
-        const productsResp = await fetch(`http://localhost:3001/products/${id}`)
+        const productsResp = await fetch(`https://myflipkartdbjson.onrender.com/products/${id}`)
         const productData = await productsResp.json();
         setProducts(productData);
       }catch (error){
