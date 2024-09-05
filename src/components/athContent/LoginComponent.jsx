@@ -28,7 +28,7 @@ const handleEmailLogin = async () => {
     try {
         // Make a request to your backend to check the email
         // debugger
-        const response = await fetch('http://localhost:3001/users?email=' + data.email);
+        const response = await fetch('https://myflipkartdbjson.onrender.com/users?email=' + data.email);
         const userData = await response.json();
         if (userData.length === 0) {
             // Email not found
