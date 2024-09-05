@@ -10,7 +10,7 @@ const Carousel = () => {
   // Fetch product details from the server
   const fetchProductDetails = async () => {
     try {
-      const response = await fetch("http://localhost:3001/products");
+      const response = await fetch("https://myflipkartdbjson.onrender.com/products");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
