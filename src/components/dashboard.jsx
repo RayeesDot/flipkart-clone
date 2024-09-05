@@ -11,7 +11,7 @@ const Dashboard = () => {
 
   const fetchProducts = async () => {
     try {
-      const productResp = await fetch('http://localhost:3001/products');
+      const productResp = await fetch('https://myflipkartdbjson.onrender.com/products');
       const productResponse = await productResp.json();
       setProducts(productResponse)
       setLoading(false)
